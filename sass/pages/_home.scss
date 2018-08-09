@@ -11,7 +11,7 @@
      rgba($color-primary-light,0.85),
      rgba($color-primary-dark,0.85)),
     
-  url(../img/travel.jpg);
+  url(../img/city-feature.jpg);
   background-size: cover;
   transform: skewY(-7deg);
   margin-top: -10rem;
@@ -20,4 +20,10 @@
     transform: skewY(7deg);
   }
 
+}
+
+.section-tours {
+  background-color: $color-grey-light-1;
+  padding: 25rem 0 50rem 0;
+  margin-top: -10rem;
 }
