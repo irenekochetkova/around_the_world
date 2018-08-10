@@ -8,8 +8,8 @@
   padding: 20rem 0;
   background-image: linear-gradient(
      to right bottom,
-     rgba($color-primary-light,0.85),
-     rgba($color-primary-dark,0.85)),
+     rgba($color-primary-light,0.8),
+     rgba($color-primary-dark,0.8)),
     
   url(../img/city-feature.jpg);
   background-size: cover;
@@ -29,6 +29,6 @@
 }
 
 .section-stories {
+  position: relative;
   padding: 15rem 0;
-  background-color: $color-grey-light-1;
 }
