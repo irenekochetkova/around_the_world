@@ -689,22 +689,25 @@ body {
 
 .header {
   height: 95vh;
-  background-image: linear-gradient(to right bottom, rgba(156, 192, 218, 0.85), rgba(53, 105, 142, 0.85)), url(../img/travel.jpg);
+  background-image: linear-gradient(to right bottom, rgba(156, 192, 218, 0.8), rgba(53, 105, 142, 0.8)), url(../img/travel-small.jpeg);
   background-size: cover;
   background-position: top;
   position: relative;
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
   clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%); }
+  @media (min-resolution: 192dpi) and (min-width: 37.5em), (min-width: 125em) {
+    .header {
+      background-image: linear-gradient(to right bottom, rgba(255, 185, 0, 0.8), rgba(255, 119, 48, 0.8)), url(../img/travel.jpg); } }
   @media (max-width: 37.5em) {
     .header {
       -webkit-clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%);
       clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%); } }
   .header__logo-box {
     position: absolute;
-    top: 4rem;
+    top: 2rem;
     left: 4rem; }
   .header__logo {
-    height: 8rem;
+    height: 8.5rem;
     font-color: white; }
   .header__text-box {
     position: absolute;
